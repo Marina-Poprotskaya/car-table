@@ -32,7 +32,7 @@ function TableWrapper({ onOpen }) {
     const newData = [...beforeIndex, ...afterIndex];
     dispatch(deleteCar(newData));
   };
-
+  console.log();
   return (
     <div className="table-wrapper">
       <div className="table-head">
